@@ -8,8 +8,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 class FlashingLed(
     private val colors: Set<LedColor>,
     private val activity: MainActivity,
-    private var handler: Handler
-) : Runnable {
+    private var handler: Handler) : Runnable {
 
     companion object {
         private val TAG = FlashingLed::class.java.simpleName
